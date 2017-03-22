@@ -22,11 +22,11 @@
     AMOScmp V.para
     ```
 6. visualize contigs & scaffolds
-	```bash
+    ```bash
     hawkeye V.para.bnk
     ```
 7. calculate contig coverage on the reference genome
-	``` r
+    ``` r
     library(stringr)
     library(GenomicRanges)
     library(dplyr)
@@ -57,7 +57,7 @@
     NC_004605.1 coverage 90.39%
     ```
 8. check coverage of each gene in reference genome
-	``` r
+    ``` r
     # gene coverage
     # read annotated gene feature table
     feature_file <- "../features/feature_table.txt"
@@ -111,10 +111,10 @@
     table(feature_table$cov==0)
     table(feature_table$cov==1)
     ```
-    |0   |0<>100|100  |
-    |----|------|-----|
-    |389 |235   |4366 |
-    |7.8%|4.7%  |87.5%|
+    | 0    | 0~100 | 100   |
+    | ---- | ----- | ----- |
+    | 389  | 235   | 4366  |
+    | 7.8% | 4.7%  | 87.5% |
 
 ### Tools used to make this:
  * [AMOS](http://amos.sourceforge.net/wiki/index.php/AMOS) for freestanding genome assemblers
