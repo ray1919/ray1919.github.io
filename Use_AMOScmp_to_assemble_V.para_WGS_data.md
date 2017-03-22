@@ -111,11 +111,11 @@
     table(feature_table$cov==0)
     table(feature_table$cov==1)
     ```
-    |0   |0<>100|100|
-    |----|------|---|
-    |389 |235   |4366|
-    |7.8%|4.7%|87.5%|
-    
+    |0   |0<>100|100  |
+    |----|------|-----|
+    |389 |235   |4366 |
+    |7.8%|4.7%  |87.5%|
+
 ### Tools used to make this:
  * [AMOS](http://amos.sourceforge.net/wiki/index.php/AMOS) for freestanding genome assemblers
  * [Biopieces](http://maasha.github.io/biopieces/) for read_fastq & write_454 tools
