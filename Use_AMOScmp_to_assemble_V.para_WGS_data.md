@@ -111,6 +111,7 @@
     table(feature_table$cov==0)
     table(feature_table$cov==1)
     ```
+    
     | 0    | 0~100 | 100   |
     |------|-------|-------|
     | 389  | 235   | 4366  |
