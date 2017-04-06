@@ -108,7 +108,7 @@ write.table(data.frame(Seq=index_seq, Name =index_name), file = "index_seq.txt",
 
 3. split fastq files using Perl script
 
-``` Perl
+``` PERL
 #!/usr/bin/env perl
 # Author: Zhao
 # Date: 2017 1 19
@@ -177,3 +177,6 @@ sub Ns {
 
 The splited fastq files
 will be save as <sample_name>.fq
+
+
+### Perl module installation might got some errors. try sudo apt-get installl libdb-dev first.
