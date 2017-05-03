@@ -1,3 +1,6 @@
+### update: 2017-05-03
+ * [在Ubuntu中安装Redis](http://blog.fens.me/linux-redis-install/)
+
 ### updated: 2017-04-06
  * [Rapid and sensitive classification of metagenomic sequences using centrifuge](Rapid_and_sensitive_classification_of_metagenomic_sequences_using_centrifuge.md)
  * [Use index seq to split Illumina fastq dump](Use_index_seq_to_split_Illumina_fastq_dump.md)

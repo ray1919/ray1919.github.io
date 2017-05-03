@@ -8,10 +8,10 @@
   ```
   2. install php7 mods packages
   ``` sh
-  sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql php7.0-gd \
+  sudo apt-get install apache2 php7.0 libapache2-mod-php7.0 php7.0-mysql \
   php7.0-mcrypt php7.0-sqlite3 php7.0-pgsql php7.0-soap php7.0-bz2 php7.0-curl \
   php7.0-json php7.0-dev php7.0-opcache php7.0-zip php7.0-xsl php7.0-xml \
-  php7.0-intl php7.0-mbstring php-memcached php-imagick
+  php7.0-intl php7.0-mbstring php-memcached php-imagick php7.0-gd
   ```
   3. Enable .htaccess
   ``` sh
