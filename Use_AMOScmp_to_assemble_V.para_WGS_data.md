@@ -6,6 +6,15 @@
     fastq-dump SRR4035056 --gzip --split-3 -v
     ```
 2. split fastq files to FASTA & QUAL files, ~13m.
+
+First, you have to make sure, the system statisfies the prerequisites of Biopieces, including perl modules & Ruby gems
+
+Also, the abyss-fixmate should be available by
+
+    ```
+    sudo apt install abyss-fixmate
+    ```
+
     ``` bash
     read_fastq -e base_33 -i SRR4035056_1.fq | write_454 -o SRR4035056_1.fa -q SRR4035056_1.qual -x
     read_fastq -e base_33 -i SRR4035056_2.fq | write_454 -o SRR4035056_2.fa -q SRR4035056_2.qual -x
