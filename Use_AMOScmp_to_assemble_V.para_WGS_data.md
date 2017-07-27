@@ -7,7 +7,7 @@
     ```
 2. split fastq files to FASTA & QUAL files, ~13m.
 
-First, you have to make sure, the system statisfies the prerequisites of Biopieces, including perl modules & Ruby gems
+First, you have to make sure, the system statisfies the [prerequisites of Biopieces](https://github.com/maasha/biopieces/wiki/Installation), including perl modules & Ruby gems
 
 Also, the abyss-fixmate should be available by
 

@@ -1,3 +1,6 @@
+### update: 2017-07-27
+ * [Useful software](Useful_software.md)
+
 ### update: 2017-05-03
  * [Redis installation in Ubuntu](http://blog.fens.me/linux-redis-install/)
 
