@@ -1,3 +1,5 @@
+### [mirpro user manual](User_manual.md)
+
 ### update: 2017-07-27
  * [Useful software](Useful_software.md)
 
