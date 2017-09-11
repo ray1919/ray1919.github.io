@@ -1,7 +1,7 @@
 Useful software
 =======
 
-Catagory（update: 2017-08-04） | Name
+Catagory（update: 2017-09-11） | Name
 --- | ---
 **Gene expression** |
 Gene expression across species and biological conditions | [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
@@ -14,6 +14,11 @@ miRNA target prediction and functional annotations | [miRDB](http://mirdb.org/mi
 Predicted microRNA targets & target downregulation scores | [miRanda](http://www.microrna.org/microrna/home.do)
 MicroRNA target prediction tools | [Catalog](http://www.exiqon.com/microrna-target-prediction)
 microRNA target detection | [RNA22](https://cm.jefferson.edu/rna22v2/)
+a supervised machine learning approach for microRNA target prediction | [TargetSpy](http://webclu.bio.wzw.tum.de/targetspy/index.php?down=true)
+target accessibility is a critical factor in microRNA function | [PITA](https://genie.weizmann.ac.il/pubs/mir07/index.html)
+a comprehensive pipeline analysis suite designed for mRNA, miRNA and circRNA identification and differential expression analysis, applicable to any sequenced organism. | [miARma-Seq](http://miarmaseq.cbbio.es/)
+elucidate the small RNA contents of deep sequencing reads | [smallrnaseq](https://github.com/dmnfarrell/smallrnaseq/wiki)
+collection of several tools for RNA analysis | [sRNAtoolBox](http://bioinfo2.ugr.es:8080/srnatoolbox/)
 |
 **Genetics** | 
 Online Mendelian Inheritance in Man | [OMIM](https://omim.org/)
@@ -32,6 +37,10 @@ NGS reads de novo assembler | [SOAPdenovo2](https://github.com/aquaskyline/SOAPd
 A Genomic Mapping and Alignment Program for mRNA and EST | [GMAP](http://research-pub.gene.com/gmap/)
 Complete and accurate shotgun assembly of bacterial sized genomes | [HGAP](https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/HGAP)
 Rapid bacterial SNP calling and core genome alignments | [Snippy](https://github.com/tseemann/snippy)
+|
+**Cancer genomics** |
+Reliable and accurate identification of somatic point mutations in high-throughput sequencing data of cancer genomes | [MuTect](https://gatkforums.broadinstitute.org/gatk/categories/mutect)
+Variant calling and somatic mutation/CNV detection for next-generation sequencing data | [varscan](https://dkoboldt.github.io/varscan/)
 |
 **Metagenomic** |
 Fast, reliable protein-coding **gene prediction** for prokaryotic genomes | [prodigal](https://github.com/hyattpd/Prodigal)
